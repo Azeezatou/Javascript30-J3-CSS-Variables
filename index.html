@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables with JS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Update CSS Variables with <span class="hl">JS</span></h2>
+        <div class="controls">
+            <label for="spacing">Spacing
+                <input type="range" name="spacing" id="spacing" min="10" max="100" value="5" data-sizing="px">
+            </label>
+            <label for="blur">Blur
+                <input type="range" name="blur" id="blur" min="0" max="25" value="5" data-sizing="px">
+            </label>
+            <label for="base">Base
+                <input type="color" name="base" id="base" value="#08b408">
+            </label>
+            <label for="border">Border Radius
+                <input type="range" name="border" id="border" min="0" max="50" value="0" data-sizing="%">
+            </label>
+            <label for="width">Width
+                <input type="range" name="width" id="width" min="250" max="350" value="0" data-sizing="px">
+            </label>
+        </div>
+        <img class="image" src="./image.jpeg" alt="image to perform action on">
+        <p>Check out my other works <a href="https://github.com/Azeezatou">here:</a></p>
+    </div>
+</body>
+</html>
